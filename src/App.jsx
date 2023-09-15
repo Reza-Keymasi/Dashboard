@@ -10,6 +10,7 @@ function App() {
         <div className="app">
           <main className="content">
             <CssBaseline />
+            <AppBar />
           </main>
         </div>
       </ThemeProvider>
