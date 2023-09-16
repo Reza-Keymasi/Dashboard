@@ -61,6 +61,18 @@ const Team = () => {
     },
   ];
 
+  const localTranslatedText = {
+    columnMenuLabel: "منو",
+    columnMenuShowColumns: "نمایش ستون ها",
+    columnMenuManageColumns: "مدیریت ستون ها",
+    columnMenuFilter: "فیلتر",
+    columnMenuHideColumn: "پنهان کردن ستون ها",
+    columnMenuUnsort: "عدم مرتب سازی",
+    columnMenuSortAsc: "مرتب سازی از ابتدا به انتها",
+    columnMenuSortDesc: "مرتب سازی از انتها به ابتدا",
+    columnHeaderSortIconLabel: "مرتب سازی",
+  };
+
   return (
     <Box m="20px">
       <Header title="اعضاء تیم شما" subtitle="مدیریت اعضاء تیم" />
@@ -90,7 +102,11 @@ const Team = () => {
           },
         }}
       >
-        <DataGrid rows={DataTeam} columns={columns} />
+        <DataGrid
+          rows={DataTeam}
+          columns={columns}
+          localeText={localTranslatedText}
+        />
       </Box>
     </Box>
   );
