@@ -39,10 +39,14 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
       onClick={() => setSelected(title)}
       icon={icon}
     >
-      <Typography variant="body1" fontWeight="700">
-        {title}
-      </Typography>
-      <Link to={to} />
+      <Link
+        to={to}
+        style={{ textDecoration: "none", color: colors.blueAccent[300] }}
+      >
+        <Typography variant="body1" fontWeight="700">
+          {title}
+        </Typography>
+      </Link>
     </MenuItem>
   );
 };
