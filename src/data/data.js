@@ -213,7 +213,7 @@ export const mockDataContacts = [
 export const mockDataInvoices = [
   {
     id: 1,
-    name: "Jon Snow",
+    name: "رضاکیماسی",
     email: "jonsnow@gmail.com",
     cost: "21.24",
     phone: "(665)121-5454",
@@ -221,7 +221,7 @@ export const mockDataInvoices = [
   },
   {
     id: 2,
-    name: "Cersei Lannister",
+    name: "جان اسنو",
     email: "cerseilannister@gmail.com",
     cost: "1.24",
     phone: "(421)314-2288",
@@ -229,7 +229,7 @@ export const mockDataInvoices = [
   },
   {
     id: 3,
-    name: "Jaime Lannister",
+    name: "سرسی لنیستر",
     email: "jaimelannister@gmail.com",
     cost: "11.24",
     phone: "(422)982-6739",
@@ -237,7 +237,7 @@ export const mockDataInvoices = [
   },
   {
     id: 4,
-    name: "Anya Stark",
+    name: "جیمی لنیستر",
     email: "anyastark@gmail.com",
     cost: "80.55",
     phone: "(921)425-6742",
@@ -245,7 +245,7 @@ export const mockDataInvoices = [
   },
   {
     id: 5,
-    name: "Daenerys Targaryen",
+    name: "آریا استارک",
     email: "daenerystargaryen@gmail.com",
     cost: "1.24",
     phone: "(421)445-1189",
@@ -253,7 +253,7 @@ export const mockDataInvoices = [
   },
   {
     id: 6,
-    name: "Ever Melisandre",
+    name: "دنریس تارگرین",
     email: "evermelisandre@gmail.com",
     cost: "63.12",
     phone: "(232)545-6483",
@@ -261,7 +261,7 @@ export const mockDataInvoices = [
   },
   {
     id: 7,
-    name: "Ferrara Clifford",
+    name: "ملیساندرا",
     email: "ferraraclifford@gmail.com",
     cost: "52.42",
     phone: "(543)124-0123",
@@ -269,7 +269,15 @@ export const mockDataInvoices = [
   },
   {
     id: 8,
-    name: "Rossini Frances",
+    name: "بروس وین",
+    email: "rossinifrances@gmail.com",
+    cost: "21.24",
+    phone: "(222)444-5555",
+    date: "05/02/2021",
+  },
+  {
+    id: 9,
+    name: "والتر وایت",
     email: "rossinifrances@gmail.com",
     cost: "21.24",
     phone: "(222)444-5555",
