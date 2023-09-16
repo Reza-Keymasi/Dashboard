@@ -4,6 +4,7 @@ import { ColorModeCotext, useMode } from "../src/mui/theme";
 import AppBar from "../src/scenes/global/AppBar";
 import Dashboard from "../src/scenes/dashboard/Dashboard";
 import SideBar from "../src/scenes/global/SideBar";
+import Team from "../src/scenes/team/Team";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -17,6 +18,7 @@ function App() {
             <AppBar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
+              <Route path="/team" element={<Team />} />
             </Routes>
           </main>
         </div>
