@@ -37,7 +37,7 @@ export default function AppBar() {
           )}
         </IconButton>
         <IconButton>
-          <DarkModeOutlinedIcon />
+          <Person2OutlinedIcon />
         </IconButton>
         <IconButton>
           <NotificationsNoneOutlinedIcon />
