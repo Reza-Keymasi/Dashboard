@@ -1,0 +1,7 @@
+[dir="rtl"] .textField-1 label,
+.textField-1 .MuiFormHelperText-root {
+  /* left: ; */
+  right: 20px;
+  transform-origin: top right;
+  text-align: right;
+}
