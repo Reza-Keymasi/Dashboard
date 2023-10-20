@@ -288,49 +288,49 @@ export const mockDataInvoices = [
 export const mockTransactions = [
   {
     txId: "01e4dsa",
-    user: "johndoe",
-    date: "2021-09-01",
+    user: "رضاکیماسی",
+    date: "2023-09-01",
     cost: "43.95",
   },
   {
     txId: "0315dsaa",
-    user: "jackdower",
+    user: "مایکل کورلئونه",
     date: "2022-04-01",
     cost: "133.45",
   },
   {
     txId: "01e4dsa",
-    user: "aberdohnny",
+    user: "آدام اسمیت",
     date: "2021-09-01",
     cost: "43.95",
   },
   {
     txId: "51034szv",
-    user: "goodmanave",
-    date: "2022-11-05",
+    user: "امین حیایی",
+    date: "2023-11-05",
     cost: "200.95",
   },
   {
     txId: "0a123sb",
-    user: "stevebower",
-    date: "2022-11-02",
+    user: "تیریون لنیستر",
+    date: "2023-11-02",
     cost: "13.55",
   },
   {
     txId: "01e4dsa",
-    user: "aberdohnny",
-    date: "2021-09-01",
+    user: "پارسا پیروزفر",
+    date: "2022-09-01",
     cost: "43.95",
   },
   {
     txId: "120s51a",
-    user: "wootzifer",
-    date: "2019-04-15",
+    user: "شهاب حسینی",
+    date: "2023-04-15",
     cost: "24.20",
   },
   {
     txId: "0315dsaa",
-    user: "jackdower",
+    user: "لئو تولستوی",
     date: "2022-04-01",
     cost: "133.45",
   },
@@ -451,163 +451,163 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "japan",
+    id: "ژاپن",
     color: tokens("dark").greenAccent[500],
     data: [
       {
-        x: "plane",
+        x: "هواپیما",
         y: 101,
       },
       {
-        x: "helicopter",
+        x: "هلیکوپتر",
         y: 75,
       },
       {
-        x: "boat",
+        x: "قایق",
         y: 36,
       },
       {
-        x: "train",
+        x: "قطار",
         y: 216,
       },
       {
-        x: "subway",
+        x: "مترو",
         y: 35,
       },
       {
-        x: "bus",
+        x: "اتوبوس",
         y: 236,
       },
       {
-        x: "car",
+        x: "اتوموبیل",
         y: 88,
       },
       {
-        x: "moto",
+        x: "موتور",
         y: 232,
       },
       {
-        x: "bicycle",
+        x: "دوچرخه",
         y: 281,
       },
       {
-        x: "horse",
+        x: "اسب",
         y: 1,
       },
       {
-        x: "skateboard",
+        x: "اسکیت بورد",
         y: 35,
       },
       {
-        x: "others",
+        x: "سایر",
         y: 14,
       },
     ],
   },
   {
-    id: "france",
+    id: "فرانسه",
     color: tokens("dark").blueAccent[300],
     data: [
       {
-        x: "plane",
+        x: "هواپیما",
         y: 212,
       },
       {
-        x: "helicopter",
+        x: "هلیکوپتر",
         y: 190,
       },
       {
-        x: "boat",
+        x: "قایق",
         y: 270,
       },
       {
-        x: "train",
+        x: "قطار",
         y: 9,
       },
       {
-        x: "subway",
+        x: "مترو",
         y: 75,
       },
       {
-        x: "bus",
+        x: "اتوبوس",
         y: 175,
       },
       {
-        x: "car",
+        x: "اتوموبیل",
         y: 33,
       },
       {
-        x: "moto",
+        x: "موتور",
         y: 189,
       },
       {
-        x: "bicycle",
+        x: "دوچرخه",
         y: 97,
       },
       {
-        x: "horse",
+        x: "اسب",
         y: 87,
       },
       {
-        x: "skateboard",
+        x: "اسکیت بورد",
         y: 299,
       },
       {
-        x: "others",
+        x: "سایر",
         y: 251,
       },
     ],
   },
   {
-    id: "us",
+    id: "ایالات متحده",
     color: tokens("dark").redAccent[200],
     data: [
       {
-        x: "plane",
+        x: "هواپیما",
         y: 191,
       },
       {
-        x: "helicopter",
+        x: "هلیکوپتر",
         y: 136,
       },
       {
-        x: "boat",
+        x: "قایق",
         y: 91,
       },
       {
-        x: "train",
+        x: "قطار",
         y: 190,
       },
       {
-        x: "subway",
+        x: "مترو",
         y: 211,
       },
       {
-        x: "bus",
+        x: "اتوبوس",
         y: 152,
       },
       {
-        x: "car",
+        x: "اتوموبیل",
         y: 189,
       },
       {
-        x: "moto",
+        x: "موتور",
         y: 152,
       },
       {
-        x: "bicycle",
+        x: "دوچرخه",
         y: 8,
       },
       {
-        x: "horse",
+        x: "اسب",
         y: 197,
       },
       {
-        x: "skateboard",
+        x: "اسکیت بورد",
         y: 107,
       },
       {
-        x: "others",
+        x: "سایر",
         y: 170,
       },
     ],
